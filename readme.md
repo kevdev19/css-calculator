@@ -1,4 +1,4 @@
-# CSS Calculator App
+# CSS Calculator
 
 Calculated created using pure CSS and HTML
 
