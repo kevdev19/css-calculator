@@ -1,6 +1,6 @@
 # CSS Calculator
 
-Calculated created using pure CSS and HTML
+Created using pure CSS and HTML
 
 Created By: Kevin Blount
 
