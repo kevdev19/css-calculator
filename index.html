@@ -10,7 +10,7 @@
   </head>
 
   <body>
-    <h1>CSS Calculator</h1>
+    <h1>JavaScript Calculator</h1>
    
    <div id="main">
     <div class="calc-container">
@@ -19,73 +19,80 @@
       </div>
       <div class="calc-input-row1">
         <div class="ac">
-          AC
+          <button class="ac-btn" onclick="handleAllCancelButton();">AC</button>
         </div>
-        <div class="plus-minus">
-          +/-
+        <div class="neg-pos">
+         <button class="neg-pos-btn" onclick="handleNegPosButton();">+/-</button>
         </div>
         <div class="percentage">
-          %
+          <button class="percentage-btn" onclick="handlePercentageButton();">%</button>
         </div>
         <div class="division">
-          &divide;
+          <button class="division-btn" onclick="handleDivisionButton();">&divide;</button>
         </div>
       </div>
 
       <div class="calc-input-row2">
         <div class="seven">
-          7
+          <button class="seven-btn" onclick="handleSevenButton();">7</button>
         </div>
         <div class="eight">
-          8
+          <button class="eight-btn" onclick="handleEightButton();">8</button>
         </div>
         <div class="nine">
-          9
+          <button class="nine-btn" onclick="handleNineButton();">9</button>
         </div>
         <div class="multiply">
-          &times;
+            <button class="multiply-btn" onclick="handleMultiplyButton();">&times;</button>
+          
         </div>
       </div>
 
       <div class="calc-input-row3">
         <div class="four">
-          4
+            <button class="four-btn" onclick="handleFourButton();">4</button>
+
         </div>
         <div class="five">
-          5
+            <button class="five-btn" onclick="handleFiveButton();">5</button>
         </div>
         <div class="six">
-          6
+            <button class="six-btn" onclick="handleSixButton();">6</button>
+
         </div>
         <div class="subtract">
-          &minus;
+            <button class="subtract-btn" onclick="handleSubtractButton();">&minus;</button>
         </div>
       </div>
 
       <div class="calc-input-row4">
         <div class="one">
-          1
+            <button class="one-btn" onclick="handleOneButton();">1</button>
+
         </div>
         <div class="two">
-          2
+            <button class="two-btn" onclick="handleTwoButton();">2</button>
+
         </div>
         <div class="three">
-          3
+            <button class="three-btn" onclick="handleThreeButton();">3</button>
+
         </div>
         <div class="add">
-            &plus;
+            <button class="add-btn" onclick="handleAddButton();">&plus;</button>      
         </div>
       </div>
 
       <div class="calc-input-row5">
           <div class="zero">
-            0
+            <button class="zero-btn" onclick="handleZeroButton();">0</button>      
+
           </div>
           <div class="period">
-              &#x2e;
+              <button class="period-btn" onclick="handlePeriodButton();">&#x2e;</button>
           </div>
           <div class="equal">
-              &equals;
+              <button class="equal-btn" onclick="handleEqualButton();">&equals;</button>            
           </div>
         </div>
     </div>

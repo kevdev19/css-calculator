@@ -4,7 +4,7 @@
 
 .calc-container {
   background-color: #414446;
-  width: 200px;
+  width: 208px;
   height: 315px;
   border-radius: 2%;
   border: 1px solid black;
@@ -41,7 +41,17 @@
   line-height: 50px;
 }
 
-.plus-minus {
+.ac-btn {
+  background-color: #5a5b5d;
+  height: 50px;
+  width: 50px;
+  color: white;
+  font-family: "Manrope", sans-serif;
+  font-size: 16px;
+  border: none;
+}
+
+.neg-pos {
   background-color: #5a5b5d;
   height: 50px;
   width: 50px;
@@ -51,6 +61,16 @@
   border: 1px solid #414446;
   text-align: center;
   line-height: 50px;
+}
+
+.neg-pos-btn {
+  background-color: #5a5b5d;
+  height: 50px;
+  width: 50px;
+  color: white;
+  font-family: "Manrope", sans-serif;
+  font-size: 16px;
+  border: none;
 }
 
 .percentage {
@@ -65,6 +85,16 @@
   line-height: 50px;
 }
 
+.percentage-btn {
+  background-color: #5a5b5d;
+  height: 50px;
+  width: 50px;
+  color: white;
+  font-family: "Manrope", sans-serif;
+  font-size: 16px;
+  border: none;
+}
+
 .division {
   background-color: #fc9f0c;
   height: 50px;
@@ -76,6 +106,16 @@
   text-align: center;
   line-height: 50px;
   font-family: "Manrope", sans-serif;
+}
+
+.division-btn {
+  background-color: #fc9f0c;
+  height: 50px;
+  width: 50px;
+  color: white;
+  font-family: "Manrope", sans-serif;
+  font-size: 30px;
+  border: none;
 }
 
 .calc-input-row2 {
@@ -96,6 +136,16 @@
   font-family: "Manrope", sans-serif;
 }
 
+.seven-btn {
+  background-color: #6b6f70;
+  height: 50px;
+  width: 50px;
+  color: white;
+  font-family: "Manrope", sans-serif;
+  font-size: 21px;
+  border: none;
+}
+
 .eight {
   background-color: #6b6f70;
   height: 50px;
@@ -107,6 +157,16 @@
   text-align: center;
   line-height: 50px;
   font-family: "Manrope", sans-serif;
+}
+
+.eight-btn {
+  background-color: #6b6f70;
+  height: 50px;
+  width: 50px;
+  color: white;
+  font-family: "Manrope", sans-serif;
+  font-size: 21px;
+  border: none;
 }
 
 .nine {
@@ -122,6 +182,16 @@
   font-family: "Manrope", sans-serif;
 }
 
+.nine-btn {
+  background-color: #6b6f70;
+  height: 50px;
+  width: 50px;
+  color: white;
+  font-family: "Manrope", sans-serif;
+  font-size: 21px;
+  border: none;
+}
+
 .multiply {
   background-color: #fc9f0c;
   height: 50px;
@@ -133,6 +203,16 @@
   text-align: center;
   line-height: 50px;
   font-family: "Manrope", sans-serif;
+}
+
+.multiply-btn {
+  background-color: #fc9f0c;
+  height: 50px;
+  width: 50px;
+  color: white;
+  font-family: "Manrope", sans-serif;
+  font-size: 30px;
+  border: none;
 }
 
 .calc-input-row3 {
@@ -153,6 +233,16 @@
   font-family: "Manrope", sans-serif;
 }
 
+.four-btn {
+  background-color: #6b6f70;
+  height: 50px;
+  width: 50px;
+  color: white;
+  font-family: "Manrope", sans-serif;
+  font-size: 21px;
+  border: none;
+}
+
 .five {
   background-color: #6b6f70;
   height: 50px;
@@ -164,6 +254,16 @@
   text-align: center;
   line-height: 50px;
   font-family: "Manrope", sans-serif;
+}
+
+.five-btn {
+  background-color: #6b6f70;
+  height: 50px;
+  width: 50px;
+  color: white;
+  font-family: "Manrope", sans-serif;
+  font-size: 21px;
+  border: none;
 }
 
 .six {
@@ -179,6 +279,16 @@
   font-family: "Manrope", sans-serif;
 }
 
+.six-btn {
+  background-color: #6b6f70;
+  height: 50px;
+  width: 50px;
+  color: white;
+  font-family: "Manrope", sans-serif;
+  font-size: 21px;
+  border: none;
+}
+
 .subtract {
   background-color: #fc9f0c;
   height: 50px;
@@ -190,6 +300,16 @@
   text-align: center;
   line-height: 50px;
   font-family: "Manrope", sans-serif;
+}
+
+.subtract-btn {
+  background-color: #fc9f0c;
+  height: 50px;
+  width: 50px;
+  color: white;
+  font-family: "Manrope", sans-serif;
+  font-size: 30px;
+  border: none;
 }
 
 .calc-input-row4 {
@@ -210,6 +330,16 @@
   font-family: "Manrope", sans-serif;
 }
 
+.one-btn {
+  background-color: #6b6f70;
+  height: 50px;
+  width: 50px;
+  color: white;
+  font-family: "Manrope", sans-serif;
+  font-size: 21px;
+  border: none;
+}
+
 .two {
   background-color: #6b6f70;
   height: 50px;
@@ -221,6 +351,16 @@
   text-align: center;
   line-height: 50px;
   font-family: "Manrope", sans-serif;
+}
+
+.two-btn {
+  background-color: #6b6f70;
+  height: 50px;
+  width: 50px;
+  color: white;
+  font-family: "Manrope", sans-serif;
+  font-size: 21px;
+  border: none;
 }
 
 .three {
@@ -236,6 +376,16 @@
   font-family: "Manrope", sans-serif;
 }
 
+.three-btn {
+  background-color: #6b6f70;
+  height: 50px;
+  width: 50px;
+  color: white;
+  font-family: "Manrope", sans-serif;
+  font-size: 21px;
+  border: none;
+}
+
 .add {
   background-color: #fc9f0c;
   height: 50px;
@@ -247,6 +397,16 @@
   text-align: center;
   line-height: 50px;
   font-family: "Manrope", sans-serif;
+}
+
+.add-btn {
+  background-color: #fc9f0c;
+  height: 50px;
+  width: 50px;
+  color: white;
+  font-family: "Manrope", sans-serif;
+  font-size: 30px;
+  border: none;
 }
 
 .calc-input-row5 {
@@ -267,6 +427,16 @@
   font-family: "Manrope", sans-serif;
 }
 
+.zero-btn {
+  background-color: #6b6f70;
+  height: 50px;
+  width: 102px;
+  color: white;
+  font-family: "Manrope", sans-serif;
+  font-size: 21px;
+  border: none;
+}
+
 .period {
   background-color: #6b6f70;
   height: 50px;
@@ -280,6 +450,16 @@
   font-family: "Manrope", sans-serif;
 }
 
+.period-btn {
+  background-color: #6b6f70;
+  height: 50px;
+  width: 50px;
+  color: white;
+  font-family: "Manrope", sans-serif;
+  font-size: 21px;
+  border: none;
+}
+
 .equal {
   background-color: #fc9f0c;
   height: 50px;
@@ -291,6 +471,16 @@
   text-align: center;
   line-height: 50px;
   font-family: "Manrope", sans-serif;
+}
+
+.equal-btn {
+  background-color: #fc9f0c;
+  height: 50px;
+  width: 50px;
+  color: white;
+  font-family: "Manrope", sans-serif;
+  font-size: 30px;
+  border: none;
 }
 
 footer {

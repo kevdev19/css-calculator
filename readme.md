@@ -1,6 +1,6 @@
-# CSS Calculator App
+# JavaScript Calculator
 
-Calculated created using pure CSS and HTML
+JavaScript Calculator
 
 Created By: Kevin Blount
 
@@ -8,7 +8,7 @@ Design adapted from MacOSX calculator app
 
 Image Example: ./assets/calc-img.png
 
-#RESOURCES USED
+# RESOURCES USED
 
 # Color Matching
 
@@ -43,6 +43,11 @@ https://fonts.google.com/selection?selection.family=Manrope:300
 
 https://www.w3schools.com/cssref/css3_pr_flex-direction.asp
 
-# Comments in HTML
+# Creating comments in HTML
 
 https://www.wikihow.com/Comment-in-HTML
+
+# Converting Divs to Buttons
+
+CSS Buttons and Basic Button Styling
+https://www.w3schools.com/csS/css3_buttons.asp
